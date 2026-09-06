@@ -1,0 +1,413 @@
+{
+  "file": {
+    "name": "C:\\Users\\SAT\\Documents\\python\\CoverLetterAssistant\\data\\y_r07_ALL20260317.csv"
+  },
+  "structure": {
+    "transition": {
+      "id_jp": "変更区分",
+      "column": 1,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 0,
+          "meaning": "status_quo"
+        },
+        {
+          "value": 1,
+          "meaning": "deleted"
+        },
+        {
+          "value": 3,
+          "meaning": "new"
+        },
+        {
+          "value": 5,
+          "meaning": "change"
+        },
+        {
+          "value": 9,
+          "meaning": "abolition"
+        }
+      ]
+    },
+    "master_type": {
+      "id_jp": "マスター種別",
+      "column": 2,
+      "type_value": "string",
+      "max_byte": 1,
+      "content": "Y"
+    },
+    "chemical_code": {
+      "id_jp": "医薬品コード",
+      "column": 3,
+      "type_value": "string",
+      "max_byte": 9
+    },
+    "chemical_name_number": {
+      "id_jp": "医薬品名漢字有効桁数",
+      "column": 4,
+      "type_value": "int",
+      "max_byte": 2
+    },
+    "chemical_name": {
+      "id_jp": "医薬品名漢字名称",
+      "column": 5,
+      "type_value": "string",
+      "max_byte": 64
+    },
+    "chemical_name_kana_number": {
+      "id_jp": "医薬品名カナ有効桁数 ",
+      "column": 6,
+      "type_value": "int",
+      "max_byte": 2
+    },
+    "chemical_name_kana": {
+      "id_jp": "医薬品名カナ名称",
+      "column": 7,
+      "type_value": "string",
+      "max_byte": 20
+    },
+    "unit_code": {
+      "id_jp": "単位コード",
+      "column": 8,
+      "type_value": "int",
+      "max_byte": 3
+    },
+    "unit_name_number": {
+      "id_jp": "単位漢字有効桁数",
+      "column": 9,
+      "type_value": "int",
+      "max_byte": 1
+    },
+    "unit_name": {
+      "id_jp": "単位漢字名称",
+      "column": 10,
+      "type_value": "string",
+      "max_byte": 12
+    },
+    "invoice_type": {
+      "id_jp": "金額種別",
+      "column": 11,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 1,
+          "meaning": "price"
+        },
+        {
+          "value": 3,
+          "meaning": "chemical_amount"
+        },
+        {
+          "value": 7,
+          "meaning": "penalty"
+        }
+      ]
+    },
+    "invoice_point": {
+      "id_jp": "新又は現金額",
+      "column": 12,
+      "type_value": "double",
+      "max_byte": 13
+    },
+    "spare_1": {
+      "id_jp": "予備",
+      "column": 13,
+      "type_value": "int",
+      "max_byte": 2
+    },
+    "controlled_substance": {
+      "id_jp": "麻薬・毒薬・覚醒剤原料・向精神薬",
+      "column": 14,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 0,
+          "meaning": "na"
+        },
+        {
+          "value": 1,
+          "meaning": "narcotic"
+        },
+        {
+          "value": 2,
+          "meaning": "poison"
+        },
+        {
+          "value": 3,
+          "meaning": "stimulant_precursor"
+        },
+        {
+          "value": 5,
+          "meaning": "psychotropic_substance"
+        }
+      ]
+    },
+    "is_neurolytic": {
+      "id_jp": "神経破壊剤",
+      "column": 15,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "is_biologic": {
+      "id_jp": "生物学的製剤",
+      "column": 16,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "is_generic": {
+      "id_jp": "後発品",
+      "column": 17,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "spare_2": {
+      "id_jp": "予備",
+      "column": 18,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "is_dental_specific": {
+      "id_jp": "歯科特定薬剤",
+      "column": 19,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "is_contrast": {
+      "id_jp": "造影（補助）剤 ",
+      "column": 20,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 0,
+          "meaning": "na"
+        },
+        {
+          "value": 1,
+          "meaning": "contrast"
+        },
+        {
+          "value": 2,
+          "meaning": "contrast_enhancing"
+        }
+      ]
+    },
+    "injection_volume": {
+      "id_jp": " 注射容量",
+      "column": 21,
+      "type_value": "double",
+      "max_byte": 5
+    },
+    "listing_type": {
+      "id_jp": "収載方式等識別",
+      "column": 22,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 0,
+          "meaning": "non_classified"
+        },
+        {
+          "value": 1,
+          "meaning": "japanese_pharmacopoeia"
+        },
+        {
+          "value": 2,
+          "meaning": "japanese_pharmacopoeia_biological"
+        },
+        {
+          "value": 3,
+          "meaning": "japanese_pharmacopoeia_crude"
+        },
+        {
+          "value": 6,
+          "meaning": "biological"
+        },
+        {
+          "value": 7,
+          "meaning": "crude"
+        },
+        {
+          "value": 8,
+          "meaning": "other_unified"
+        }
+      ]
+    },
+    "related_code": {
+      "id_jp": "商品名等関連",
+      "column": 23,
+      "type_value": "string",
+      "max_byte": 9
+    },
+    "spare_3": {
+      "id_jp": "予備",
+      "column": 24,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": 0
+    },
+    "spare_4": {
+      "id_jp": "予備",
+      "column": 25,
+      "type_value": "double",
+      "max_byte": 13
+    },
+    "has_change_chemical_name": {
+      "id_jp": "漢字名称変更区分",
+      "column": 26,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_chemical_name_kana": {
+      "id_jp": "カナ名称変更区分",
+      "column": 27,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "chemical_form": {
+      "id_jp": "剤形",
+      "column": 28,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 1,
+          "meaning": "oral"
+        },
+        {
+          "value": 3,
+          "meaning": "other"
+        },
+        {
+          "value": 4,
+          "meaning": "injectable"
+        },
+        {
+          "value": 6,
+          "meaning": "topical"
+        },
+        {
+          "value": 8,
+          "meaning": "dental"
+        }
+      ]
+    },
+    "spare_5": {
+      "id_jp": "予備",
+      "column": 29,
+      "type_value": "string",
+      "max_byte": 49
+    },
+    "change_date": {
+      "id_jp": "変更年月日",
+      "column": 30,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "abolished_date": {
+      "id_jp": "廃止年月日",
+      "column": 31,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "nhi_price_code": {
+      "id_jp": "薬価基準収載医薬品コード",
+      "column": 32,
+      "type_value": "string",
+      "max_byte": 12
+    },
+    "public_order_number": {
+      "id_jp": "公表順序番号",
+      "column": 33,
+      "type_value": "int",
+      "max_byte": 9
+    },
+    "transition_or_expiration": {
+      "id_jp": "経過措置年月日又は商品名医薬品コード使用期限",
+      "column": 34,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "product_name": {
+      "id_jp": "基本漢字名称",
+      "column": 35,
+      "type_value": "string",
+      "max_byte": 200
+    },
+    "listing_date": {
+      "id_jp": "薬価基準収載年月日",
+      "column": 36,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "general_name_code": {
+      "id_jp": "一般名コード",
+      "column": 37,
+      "type_value": "string",
+      "max_byte": 12
+    },
+    "general_name": {
+      "id_jp": "一般名処方の標準的な記載",
+      "column": 38,
+      "type_value": "string",
+      "max_byte": 200
+    },
+    "general_name_addition": {
+      "id_jp": "一般名処方加算対象区分",
+      "column": 39,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 0,
+          "meaning": "na"
+        },
+        {
+          "value": 1,
+          "meaning": "addition_1"
+        },
+        {
+          "value": 2,
+          "meaning": "addition_1_2"
+        }
+      ]
+    },
+    "is_anti_hiv": {
+      "id_jp": "抗HIV薬区分",
+      "column": 40,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "long_term_related_code": {
+      "id_jp": "長期収載品関連",
+      "column": 41,
+      "type_value": "string",
+      "max_byte": 9
+    },
+    "selected_medical_treatment": {
+      "id_jp": "選定療養区分",
+      "column": 42,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 0,
+          "meaning": "na"
+        },
+        {
+          "value": 1,
+          "meaning": "necessary"
+        },
+        {
+          "value": 2,
+          "meaning": "request"
+        }
+      ]
+    }
+  }
+}

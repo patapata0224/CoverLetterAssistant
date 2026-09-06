@@ -1,0 +1,410 @@
+{
+  "file": {
+    "name": "C:\\Users\\SAT\\Documents\\python\\CoverLetterAssistant\\data\\adl.csv"
+  },
+  "structure": {
+    "creation__ggge": {
+      "address": "N3",
+      "type_value": "int"
+    },
+    "creation__m": {
+      "address": "Q3",
+      "type_value": "int"
+    },
+    "creation__d": {
+      "address": "S3",
+      "type_value": "int"
+    },
+    "name": {
+      "address": "B6",
+      "type_value": "string"
+    },
+    "start_date__ggge": {
+      "address": "J6",
+      "type_value": "int"
+    },
+    "start_date__m": {
+      "address": "L6",
+      "type_value": "int"
+    },
+    "start_date__d": {
+      "address": "N6",
+      "type_value": "int"
+    },
+    "end_date__ggge": {
+      "address": "R6",
+      "type_value": "int"
+    },
+    "end_date__m": {
+      "address": "T6",
+      "type_value": "int"
+    },
+    "end_date__d": {
+      "address": "V6",
+      "type_value": "int"
+    },
+    "gender": {
+      "address": "B8",
+      "type_value": "string",
+      "content": [
+        {
+          "value": "男性",
+          "LIFE": 1
+        },
+        {
+          "value": "女性",
+          "LIFE": 2
+        }
+      ]
+    },
+    "birthday__ggge_prefix": {
+      "address": "G8",
+      "type_value": "string"
+    },
+    "birthday__ggge": {
+      "address": "I8",
+      "type_value": "int"
+    },
+    "birthday__m": {
+      "address": "K8",
+      "type_value": "int"
+    },
+    "birthday__d": {
+      "address": "M8",
+      "type_value": "int"
+    },
+    "age": {
+      "address": "O8",
+      "type_value": "int"
+    },
+    "meal": {
+      "address": "C11",
+      "type_value": "check"
+    },
+    "medical_diet": {
+      "address": "F11",
+      "type_value": "check"
+    },
+    "medical_diet_content": {
+      "address": "I11",
+      "type_value": "string"
+    },
+    "amount_enegy": {
+      "address": "T11",
+      "type_value": "string"
+    },
+    "main_dish_type_rice": {
+      "address": "E12",
+      "type_value": "check"
+    },
+    "main_dish_type_porridge": {
+      "address": "H12",
+      "type_value": "check"
+    },
+    "main_dish_type_paste": {
+      "address": "K12",
+      "type_value": "check"
+    },
+    "provided_nutrients_other__1": {
+      "address": "R12",
+      "type_value": "stirng"
+    },
+    "provided_nutrients_other__2": {
+      "address": "U12",
+      "type_value": "string"
+    },
+    "side_dish_type_usual": {
+      "address": "E13",
+      "type_value": "check"
+    },
+    "side_dish_type_once": {
+      "address": "H13",
+      "type_value": "check"
+    },
+    "meal_form__soft": {
+      "address": "K13",
+      "type_value": "check"
+    },
+    "meal_form__paste": {
+      "address": "O13",
+      "type_value": "check"
+    },
+    "meal_form__half": {
+      "address": "S13",
+      "type_value": "check"
+    },
+    "meal_assistance__independent": {
+      "address": "E14",
+      "type_value": "check"
+    },
+    "meal_assistance__partial": {
+      "address": "H14",
+      "type_value": "check"
+    },
+    "meal_assistance__full": {
+      "address": "L14",
+      "type_value": "check"
+    },
+    "thickener__yes": {
+      "address": "E15",
+      "type_value": "check"
+    },
+    "thickener__no": {
+      "address": "H15",
+      "type_value": "check"
+    },
+    "thickener_amount": {
+      "address": "O15",
+      "type_value": "string"
+    },
+    "chewing__no_problem": {
+      "address": "E16",
+      "type_value": "check"
+    },
+    "chewing__problem": {
+      "address": "H16",
+      "type_value": "check"
+    },
+    "chewing_notes": {
+      "address": "P16",
+      "type_value": "string"
+    },
+    "dentures__present": {
+      "address": "E17",
+      "type_value": "check"
+    },
+    "dentures__upper": {
+      "address": "H17",
+      "type_value": "check"
+    },
+    "dentures__lower": {
+      "address": "K17",
+      "type_value": "check"
+    },
+    "dentures__none": {
+      "address": "N17",
+      "type_value": "check"
+    },
+    "dentures_notes": {
+      "address": "S17",
+      "type_value": "string"
+    },
+    "elimination_method__daytime": {
+      "address": "E18",
+      "type_value": "string"
+    },
+    "elimination_method__daytime_status": {
+      "address": "O18",
+      "type_value": "string"
+    },
+    "elimination_method__nighttime": {
+      "address": "E19",
+      "type_value": "string"
+    },
+    "elimination_method__nighttime_status": {
+      "address": "O19",
+      "type_value": "string"
+    },
+    "urine_urge__yes": {
+      "address": "E20",
+      "type_value": "check"
+    },
+    "urine_urge__sometimes": {
+      "address": "H20",
+      "type_value": "check"
+    },
+    "urine_urge__no": {
+      "address": "L20",
+      "type_value": "check"
+    },
+    "urine_elimination_action": {
+      "address": "S20",
+      "type_value": "string"
+    },
+    "urine_frequency__daytime": {
+      "address": "G21",
+      "type_value": "int"
+    },
+    "urine_frequency__nighttime": {
+      "address": "L21",
+      "type_value": "int"
+    },
+    "urine_notes": {
+      "address": "Q21",
+      "type_value": "string"
+    },
+    "stool_urge__yes": {
+      "address": "E22",
+      "type_value": "check"
+    },
+    "stool_urge__sometimes": {
+      "address": "H22",
+      "type_value": "check"
+    },
+    "stool_urge__no": {
+      "address": "L22",
+      "type_value": "check"
+    },
+    "stool_elimination_action": {
+      "address": "S22",
+      "type_value": "string"
+    },
+    "stool_frequency__days": {
+      "address": "E23",
+      "type_value": "int"
+    },
+    "stool_frequency__times": {
+      "address": "I23",
+      "type_value": "int"
+    },
+    "last_stool__m": {
+      "address": "O23",
+      "type_value": "int"
+    },
+    "last_stool__d": {
+      "address": "S23",
+      "type_value": "int"
+    },
+
+
+    
+
+
+    "mobility_method__independent_walking": {
+      "address": "C24",
+      "type_value": "check"
+    },
+    "mobility_method__cane": {
+      "address": "F24",
+      "type_value": "check"
+    },
+    "mobility_method__wheelchair": {
+      "address": "I24",
+      "type_value": "check"
+    },
+    "mobility_method__reclining_wheelchair": {
+      "address": "L24",
+      "type_value": "check"
+    },
+    "mobility_method__walker": {
+      "address": "O24",
+      "type_value": "check"
+    },
+    "mobility_method__silver_car": {
+      "address": "R24",
+      "type_value": "check"
+    },
+    "mobility_status__independent": {
+      "address": "C25",
+      "type_value": "check"
+    },
+    "mobility_status__partial": {
+      "address": "F25",
+      "type_value": "check"
+    },
+    "mobility_status__full": {
+      "address": "I25",
+      "type_value": "check"
+    },
+    "mobility_assistive_device__yes": {
+      "address": "P25",
+      "type_value": "check"
+    },
+    "mobility_assistive_device__no": {
+      "address": "S25",
+      "type_value": "check"
+    },
+    "mobility_notes": {
+      "address": "T25",
+      "type_value": "string"
+    },
+    "paralysis__yes": {
+      "address": "C26",
+      "type_value": "check"
+    },
+    "paralysis__right_upper_limb": {
+      "address": "F26",
+      "type_value": "check"
+    },
+    "paralysis__left_upper_limb": {
+      "address": "I26",
+      "type_value": "check"
+    },
+    "paralysis__right_lower_limb": {
+      "address": "L26",
+      "type_value": "check"
+    },
+    "paralysis__left_lower_limb": {
+      "address": "O26",
+      "type_value": "check"
+    },
+    "paralysis__no": {
+      "address": "R26",
+      "type_value": "check"
+    },
+    "bathing_method__general": {
+      "address": "C27",
+      "type_value": "check"
+    },
+    "bathing_method__special": {
+      "address": "F27",
+      "type_value": "check"
+    },
+    "last_bathing__m": {
+      "address": "R27",
+      "type_value": "int"
+    },
+    "last_bathing__d": {
+      "address": "U27",
+      "type_value": "int"
+    },
+    "bathing_status__independent": {
+      "address": "C28",
+      "type_value": "check"
+    },
+    "bathing_status__partial": {
+      "address": "F28",
+      "type_value": "check"
+    },
+    "bathing_status__full": {
+      "address": "I28",
+      "type_value": "check"
+    },
+    "bathing_notes": {
+      "address": "T28",
+      "type_value": "string"
+    },
+    "dressing_status__independent": {
+      "address": "C29",
+      "type_value": "check"
+    },
+    "dressing_status__partial": {
+      "address": "F29",
+      "type_value": "check"
+    },
+    "dressing_status__full": {
+      "address": "I29",
+      "type_value": "check"
+    },
+    "dressing_notes": {
+      "address": "T29",
+      "type_value": "string"
+    },
+    "sleep_status__good": {
+      "address": "C30",
+      "type_value": "check"
+    },
+    "sleep_status__normal": {
+      "address": "F30",
+      "type_value": "check"
+    },
+    "sleep_status__insomnia": {
+      "address": "I30",
+      "type_value": "check"
+    },
+    "sleep_notes": {
+      "address": "T30",
+      "type_value": "string"
+    }
+  }
+}

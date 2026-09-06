@@ -1,0 +1,646 @@
+{
+  "file": {
+    "name": "C:\\Users\\USER1\\Documents\\python\\CoverLetterAssistant\\data\\nursing.xlsx"
+  },
+  "structure": {
+    "creation__ggge": {
+      "address": "K1",
+      "type_value": "string"
+    },
+    "creation__m": {
+      "address": "N1",
+      "type_value": "int"
+    },
+    "creation__d": {
+      "address": "P1",
+      "type_value": "int"
+    },
+    "start_date__ggge": {
+      "address": "C5",
+      "type_value": "string"
+    },
+    "start_date__m": {
+      "address": "F5",
+      "type_value": "int"
+    },
+    "start_date__d": {
+      "address": "H5",
+      "type_value": "int"
+    },
+    "end_date__ggge": {
+      "address": "C5",
+      "type_value": "string"
+    },
+    "end_date__m": {
+      "address": "F5",
+      "type_value": "int"
+    },
+    "end_date__d": {
+      "address": "H5",
+      "type_value": "int"
+    },
+    "name_kana": {
+      "address": "B7",
+      "type_value": "string"
+    },
+    "name": {
+      "address": "B8",
+      "type_value": "string"
+    },
+    "birthday__gge_prefix": {
+      "address": "H7",
+      "type_value": "circle",
+      "content": ["明","大","昭"]
+    },
+    "birthday__gge": {
+      "address": "J7",
+      "type_value": "int"
+    },
+    "birthday__m": {
+      "address": "L7",
+      "type_value": "int"
+    },
+    "birthday__d": {
+      "address": "N7",
+      "type_value": "int"
+    },
+    "age": {
+      "address": "P7",
+      "type_value": "int"
+    },
+    "gender": {
+      "address": "B11",
+      "type_value": "circle",
+      "content": [
+        {
+          "value": "男性",
+          "LIFE": 1
+        },
+        {
+          "value": "女性",
+          "LIFE": 2
+        }
+      ]
+    },
+    "care_level": {
+      "address": "G11",
+      "type_value": "string",
+      "content": [
+        {
+          "value": "非",
+          "LIFE": "01"
+        },
+        {
+          "value": "事業",
+          "LIFE": "06"
+        },
+        {
+          "value": "支援",
+          "LIFE": "11"
+        },
+        {
+          "value": "支１",
+          "LIFE": "12"
+        },
+        {
+          "value": "支２",
+          "LIFE": "13"
+        },
+        {
+          "value": "介１",
+          "LIFE": "21"
+        },
+        {
+          "value": "介２",
+          "LIFE": "22"
+        },
+        {
+          "value": "介３",
+          "LIFE": "23"
+        },
+        {
+          "value": "介４",
+          "LIFE": "24"
+        },
+        {
+          "value": "介５",
+          "LIFE": "25"
+        }
+      ]
+    },
+    "care_period_end__gge": {
+      "address": "L11",
+      "type_value": "int"
+    },
+    "care_period_end__m": {
+      "address": "N11",
+      "type_value": "int"
+    },
+    "care_period_end__d": {
+      "address": "P11",
+      "type_value": "int"
+    },
+    "height": {
+      "address": "B14",
+      "type_value": "double",
+      "_ver_missing": 1
+    },
+    "weight": {
+      "address": "G14",
+      "type_value": "double",
+      "_ver_missing": 1
+    },
+    "evaluate_date__m": {
+      "address": "L14",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "evaluate_date__d": {
+      "address": "N14",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "contact_1_name": {
+      "address": "C17",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "contact_1_relation": {
+      "address": "H17",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "contact_1_tel_home": {
+      "address": "M17",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "contact_1_tel_cell": {
+      "address": "M19",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "contact_2_name": {
+      "address": "C21",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "contact_2_relation": {
+      "address": "H21",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "contact_2_tel_home": {
+      "address": "M21",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "contact_2_tel_cell": {
+      "address": "M23",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "address": {
+      "address": "B25",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "tel": {
+      "address": "K25",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "medical_history": {
+      "address": "B28",
+      "type_value": "string"
+    },
+    "family": {
+      "address": "B35",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "symptoms_passage": {
+      "address": "B40",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "symptoms_current": {
+      "address": "B51",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "note": {
+      "address": "B60",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "balloon_catheter": {
+      "address": "M28",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ],
+      "form": "FORM_0500_2021",
+      "interface_jp": "褥瘡マネジメント情報"
+    },
+    "balloon_catheter_fr": {
+      "address": "O28",
+      "type_value": "double",
+      "_ver_missing": 1
+    },
+    "balloon_catheter_m": {
+      "address": "L30",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "balloon_catheter_d": {
+      "address": "N30",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "peg_ma": {
+      "address": "L32",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "peg_ma_md": {
+      "address": "P32",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "peg_ma_fr": {
+      "address": "N33",
+      "type_value": "double",
+      "_ver_missing": 1
+    },
+    "peg_ma_cm": {
+      "address": "P33",
+      "type_value": "double",
+      "_ver_missing": 1
+    },
+    "visual_impairment": {
+      "address": "L34",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "glasses": {
+      "address": "P34",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "hearing_impairment": {
+      "address": "L36",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "hearing_aids": {
+      "address": "P36",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "language_disorders": {
+      "address": "L38",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "laxative": {
+      "address": "L40",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "glycerin_enema": {
+      "address": "P40",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "vaccine_1": {
+      "address": "L42",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "vaccine_1_name": {
+      "address": "M42",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "vaccine_1_yyyy": {
+      "address": "M43",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "vaccine_1_m": {
+      "address": "P43",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "vaccine_1_d": {
+      "address": "Q43",
+      "type_value": "int",
+      "format": "月 %i日",
+      "_ver_missing": 1
+    },
+    "vaccine_2": {
+      "address": "L44",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "vaccine_2_name": {
+      "address": "M44",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "vaccine_2_yyyy": {
+      "address": "M45",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "vaccine_2_m": {
+      "address": "P45",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "vaccine_2_d": {
+      "address": "Q45",
+      "type_value": "int",
+      "format": "月 %i日",
+      "_ver_missing": 1
+    },
+    "vaccine_3": {
+      "address": "L46",
+      "type_value": "circle",
+      "_ver_missing": 1,
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "vaccine_3_name": {
+      "address": "M46",
+      "type_value": "string",
+      "_ver_missing": 1
+    },
+    "vaccine_3_yyyy": {
+      "address": "M47",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "vaccine_3_m": {
+      "address": "P47",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "vaccine_3_d": {
+      "address": "Q47",
+      "type_value": "int",
+      "format": "月 %i日",
+      "_ver_missing": 1
+    },
+    "dementia": {
+      "address": "L48",
+      "type_value": "circle",
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "hds-r": {
+      "address": "P48",
+      "type_value": "int",
+      "_ver_missing": 1
+    },
+    "hds-r_yyyymd": {
+      "address": "P50",
+      "type_value": "string"
+    },
+    "bedsore": {
+      "address": "L51",
+      "type_value": "circle",
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "bedsore_parts": {
+      "address": "O51",
+      "type_value": "string"
+    },
+    "nutrition_feeding": {
+      "address": "L53",
+      "type_value": "circle",
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "nutrition_feeding_times": {
+      "address": "N53",
+      "type_value": "string"
+    },
+    "nutrition_feeding_type": {
+      "address": "N54",
+      "type_value": "string"
+    },
+    "taboo": {
+      "address": "L55",
+      "type_value": "circle",
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "taboo_description": {
+      "address": "L55",
+      "type_value": "string"
+    },
+    "hospitalization": {
+      "address": "L57",
+      "type_value": "circle",
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "hospitalization_description": {
+      "address": "L55",
+      "type_value": "string"
+    },
+    "allergy": {
+      "address": "L60",
+      "type_value": "circle",
+      "content": [
+        {
+          "value": "有",
+          "LIFE": 1
+        },
+        {
+          "value": "無",
+          "LIFE": 0
+        }
+      ]
+    },
+    "allergyo_description": {
+      "address": "L60",
+      "type_value": "string"
+    },
+    "floor": {
+      "address": "A64",
+      "type_value": "int"
+    },
+    "unit": {
+      "address": "C64",
+      "type_value": "string"
+    },
+    "chief_nurse": {
+      "address": "G64",
+      "type_value": "string"
+    },
+    "preparer": {
+      "address": "N64",
+      "type_value": "string"
+    }
+  }
+}
