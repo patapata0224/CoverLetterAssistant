@@ -1,0 +1,384 @@
+{
+  "file": {
+    "name": "C:\\Users\\SAT\\Documents\\python\\CoverLetterAssistant\\data\\b_20260101.txt"
+  },
+  "structure": {
+    "transition": {
+      "id_jp": "変更区分",
+      "column": 1,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 0,
+          "meaning": "status_quo"
+        },
+        {
+          "value": 1,
+          "meaning": "deleted"
+        },
+        {
+          "value": 2,
+          "meaning": "revival"
+        },
+        {
+          "value": 3,
+          "meaning": "new"
+        },
+        {
+          "value": 5,
+          "meaning": "change"
+        },
+        {
+          "value": 9,
+          "meaning": "abolition"
+        }
+      ]
+    },
+    "master_type": {
+      "id_jp": "マスター種別",
+      "column": 2,
+      "type_value": "string",
+      "max_byte": 1,
+      "content": "B"
+    },
+    "injury_code": {
+      "id_jp": "傷病名コード",
+      "column": 3,
+      "type_value": "string",
+      "max_byte": 7
+    },
+    "transfer_code": {
+      "id_jp": "移行先コード",
+      "column": 4,
+      "type_value": "string",
+      "max_byte": 7
+    },
+    "injury_name_number": {
+      "id_jp": "傷病名基本名称桁数",
+      "column": 5,
+      "type_value": "int",
+      "max_byte": 2
+    },
+    "injury_name": {
+      "id_jp": "傷病名基本名称",
+      "column": 6,
+      "type_value": "string",
+      "max_byte": 60
+    },
+    "shorten_injury_name_number": {
+      "id_jp": "傷病名省略名称桁数",
+      "column": 7,
+      "type_value": "int",
+      "max_byte": 2
+    },
+    "shorten_injury_name": {
+      "id_jp": "傷病名省略名称",
+      "column": 8,
+      "type_value": "string",
+      "max_byte": 40
+    },
+    "injury_name_kana_number": {
+      "id_jp": "傷病名カナ名称桁数",
+      "column": 9,
+      "type_value": "string",
+      "max_byte": 2
+    },
+    "injury_name_kana": {
+      "id_jp": "傷病名カナ名称",
+      "column": 10,
+      "type_value": "string",
+      "max_byte": 100
+    },
+    "injury_name_id": {
+      "id_jp": "病名管理番号",
+      "column": 11,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "injury_name_degree": {
+      "id_jp": "採択区分",
+      "column": 12,
+      "type_value": "int",
+      "max_byte": 1
+    },
+    "injury_name_exchange_code": {
+      "id_jp": "病名交換用コード",
+      "column": 13,
+      "type_value": "string",
+      "max_byte": 4
+    },
+    "spare_1": {
+      "id_jp": "予備",
+      "column": 14,
+      "type_value": "string",
+      "max_byte": 5
+    },
+    "spare_2": {
+      "id_jp": "予備",
+      "column": 15,
+      "type_value": "string",
+      "max_byte": 5
+    },
+    "ICD-10-1(2013)": {
+      "id_jp": "ICD-10-1(2013)",
+      "column": 16,
+      "type_value": "string",
+      "max_byte": 5
+    },
+    "ICD-10-2(2013)": {
+      "id_jp": "ICD-10-2(2013)",
+      "column": 17,
+      "type_value": "string",
+      "max_byte": 5
+    },
+    "spare_3": {
+      "id_jp": "予備",
+      "column": 18,
+      "type_value": "string",
+      "max_byte": 5
+    },
+    "sole_use": {
+      "id_jp": "単独使用禁止区分",
+      "column": 19,
+      "type_value": "string",
+      "max_byte": 2,
+      "content": [
+        {
+          "value": "00",
+          "meaning": "sole"
+        },
+        {
+          "value": "01",
+          "meaning": "not_sole"
+        }
+      ]
+    },
+    "insured_injury": {
+      "id_jp": "保険請求外区分",
+      "column": 20,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": [
+        {
+          "value": 0,
+          "meaning": "insured"
+        },
+        {
+          "value": 1,
+          "meaning": "not_insured"
+        }
+      ]
+    },
+    "designated_disease": {
+      "id_jp": "特定疾患等対象区分",
+      "column": 21,
+      "type_value": "string",
+      "max_byte": 2,
+      "content": [
+        {
+          "value": "00",
+          "meaning": "na",
+          "meaning_jp": "算定対象外"
+        },
+        {
+          "value": "03",
+          "meaning": "dermatology_i",
+          "meaning_jp": "皮膚科特定疾患指導管理料（Ⅰ）算定対象"
+        },
+        {
+          "value": "04",
+          "meaning": "dermatology_ii",
+          "meaning_jp": "皮膚科特定疾患指導管理料（Ⅱ）算定対象"
+        },
+        {
+          "value": "05",
+          "meaning": "designated_disease",
+          "meaning_jp": "特定疾患療養管理料算定対象"
+        },
+        {
+          "value": "07",
+          "meaning": "epilepsy",
+          "meaning_jp": "てんかん指導料算定対象"
+        },
+        {
+          "value": "08",
+          "meaning": "desiganated_or_epilepsy",
+          "meaning_jp": "特定疾患療養管理料又はてんかん指導料算定対象"
+        }
+      ]
+    },
+    "entry_date": {
+      "id_jp": "収載年月日",
+      "column": 22,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "change_date": {
+      "id_jp": "変更年月日",
+      "column": 23,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "abolished_date": {
+      "id_jp": "廃止年月日",
+      "column": 24,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "has_change_injury_name": {
+      "id_jp": "傷病名基本名称（変更情報）",
+      "column": 25,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_shorten_injury_name": {
+      "id_jp": "傷病名省略名称（変更情報）",
+      "column": 26,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_injury_name_kana": {
+      "id_jp": "傷病名カナ名称（変更情報）",
+      "column": 27,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_injury_name_degree": {
+      "id_jp": "採択区分（変更情報）",
+      "column": 28,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_injury_name_exchange_code": {
+      "id_jp": "病名交換用コード（変更情報）",
+      "column": 29,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "spare_4": {
+      "id_jp": "予備",
+      "column": 30,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": 0
+    },
+    "spare_5": {
+      "id_jp": "予備",
+      "column": 31,
+      "type_value": "int",
+      "max_byte": 1,
+      "content": 0
+    },
+    "has_change_shorten_dentistry_injury_name": {
+      "id_jp": "歯科傷病名省略名称（変更情報）",
+      "column": 32,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_intractable_disease": {
+      "id_jp": "難病外来対象区分（変更情報）",
+      "column": 33,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_denstistry_designated_disease": {
+      "id_jp": "歯科特定疾患対象区分（変更情報）",
+      "column": 34,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_sole_use": {
+      "id_jp": "単独使用禁止区分（変更情報）",
+      "column": 35,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_insured_injury": {
+      "id_jp": "保険請求外区分（変更情報）",
+      "column": 36,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_designated_disease": {
+      "id_jp": "特定疾患等対象区分（変更情報）",
+      "column": 37,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "destination_injury_name_id": {
+      "id_jp": "移行先病名管理番号",
+      "column": 38,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "shorten_dentistry_injury_name": {
+      "id_jp": "歯科傷病名省略名称",
+      "column": 39,
+      "type_value": "string",
+      "max_byte": 40
+    },
+    "spare_6": {
+      "id_jp": "予備",
+      "column": 40,
+      "type_value": "string",
+      "max_byte": 10
+    },
+    "spare_7": {
+      "id_jp": "予備",
+      "column": 41,
+      "type_value": "string",
+      "max_byte": 8
+    },
+    "shorten_dentistry_injury_name_number": {
+      "id_jp": "歯科傷病名省略名称桁数",
+      "column": 42,
+      "type_value": "int",
+      "max_byte": 2
+    },
+    "intractable_disease": {
+      "id_jp": "難病外来対象区分",
+      "column": 43,
+      "type_value": "string",
+      "max_byte": 2,
+      "content": [
+        {
+          "value": "00",
+          "meaning": "na"
+        },
+        {
+          "value": "09",
+          "meaning": "applicable"
+        }
+      ]
+    },
+    "denstistry_designated_disease": {
+      "id_jp": "歯科特定疾患対象区分",
+      "column": 44,
+      "type_value": "string",
+      "max_byte": 2,
+      "content": [
+        {
+          "value": "00",
+          "meaning": "na"
+        },
+        {
+          "value": "10",
+          "meaning": "applicable"
+        }
+      ]
+    },
+    "has_change_ICD-10-1(2013)": {
+      "id_jp": "ICD-10-1(2013)（変更情報）",
+      "column": 45,
+      "type_value": "bool",
+      "max_byte": 1
+    },
+    "has_change_ICD-10-2(2013)": {
+      "id_jp": "ICD-10-2(2013)（変更情報）",
+      "column": 46,
+      "type_value": "bool",
+      "max_byte": 1
+    }
+  }
+}
